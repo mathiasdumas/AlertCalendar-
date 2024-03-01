@@ -1,0 +1,14 @@
+/Users/barbara/Projects/AlertCalendar/AlertCalendar/bin/Debug/net8.0/AlertCalendar
+/Users/barbara/Projects/AlertCalendar/AlertCalendar/bin/Debug/net8.0/AlertCalendar.deps.json
+/Users/barbara/Projects/AlertCalendar/AlertCalendar/bin/Debug/net8.0/AlertCalendar.runtimeconfig.json
+/Users/barbara/Projects/AlertCalendar/AlertCalendar/bin/Debug/net8.0/AlertCalendar.dll
+/Users/barbara/Projects/AlertCalendar/AlertCalendar/bin/Debug/net8.0/AlertCalendar.pdb
+/Users/barbara/Projects/AlertCalendar/AlertCalendar/obj/Debug/net8.0/AlertCalendar.GeneratedMSBuildEditorConfig.editorconfig
+/Users/barbara/Projects/AlertCalendar/AlertCalendar/obj/Debug/net8.0/AlertCalendar.AssemblyInfoInputs.cache
+/Users/barbara/Projects/AlertCalendar/AlertCalendar/obj/Debug/net8.0/AlertCalendar.AssemblyInfo.cs
+/Users/barbara/Projects/AlertCalendar/AlertCalendar/obj/Debug/net8.0/AlertCalendar.csproj.CoreCompileInputs.cache
+/Users/barbara/Projects/AlertCalendar/AlertCalendar/obj/Debug/net8.0/AlertCalendar.dll
+/Users/barbara/Projects/AlertCalendar/AlertCalendar/obj/Debug/net8.0/refint/AlertCalendar.dll
+/Users/barbara/Projects/AlertCalendar/AlertCalendar/obj/Debug/net8.0/AlertCalendar.pdb
+/Users/barbara/Projects/AlertCalendar/AlertCalendar/obj/Debug/net8.0/AlertCalendar.genruntimeconfig.cache
+/Users/barbara/Projects/AlertCalendar/AlertCalendar/obj/Debug/net8.0/ref/AlertCalendar.dll
