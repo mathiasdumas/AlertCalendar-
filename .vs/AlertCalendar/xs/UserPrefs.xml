@@ -1,29 +1,30 @@
 ﻿<Properties StartupConfiguration="{F015C865-BD18-4816-A9F7-7B20D02C5E3B}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.AlertCalendar PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AlertCalendar/Calendar.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AlertCalendar/Program.cs">
     <Files>
-      <File FileName="AlertCalendar/Program.cs" Line="8" Column="78" />
-      <File FileName="AlertCalendar/Calendar.cs" Line="45" Column="29" />
-      <File FileName="AlertCalendar/Day.cs" Line="11" Column="12" />
-      <File FileName="AlertCalendar/Month.cs" Line="20" Column="1" />
-      <File FileName="AlertCalendar/Alert.cs" Line="17" Column="36" />
+      <File FileName="AlertCalendar/Program.cs" Line="26" Column="32" />
+      <File FileName="AlertCalendar/Day.cs" />
+      <File FileName="AlertCalendar/Month.cs" />
+      <File FileName="AlertCalendar/Alert.cs" />
+      <File FileName="AlertCalendar/Calendar.cs" />
+      <File FileName="AlertCalendar/AlertOnThisDay.cs" Line="10" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AlertCalendar" expanded="True">
             <Node name="AlertCalendar" expanded="True">
-              <Node name="Calendar.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlertCalendar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04effdd6703cb1fca56c40495ed3062b4621c8b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlertCalendar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlertCalendar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

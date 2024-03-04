@@ -12,3 +12,4 @@
 /Users/barbara/Projects/AlertCalendar/AlertCalendar/obj/Debug/net8.0/AlertCalendar.pdb
 /Users/barbara/Projects/AlertCalendar/AlertCalendar/obj/Debug/net8.0/AlertCalendar.genruntimeconfig.cache
 /Users/barbara/Projects/AlertCalendar/AlertCalendar/obj/Debug/net8.0/ref/AlertCalendar.dll
+/Users/barbara/Projects/AlertCalendar/AlertCalendar/obj/Debug/net8.0/AlertCalendar.sourcelink.json

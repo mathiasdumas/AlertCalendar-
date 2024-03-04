@@ -14,7 +14,7 @@ namespace AlertCalendar
             Message = message;
         }
 
-        public void DisplayMessage()
+        public virtual void DisplayMessage(object sender, AlertEventArgs alertEventArgs)
 		{
 			Console.WriteLine(Message);
 		}

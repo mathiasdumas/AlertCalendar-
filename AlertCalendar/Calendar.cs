@@ -8,10 +8,10 @@ namespace AlertCalendar
 		public Month Month { get; set; }
 		public int DayNumber { get; set; }
 
-        public event Action OnYear;
-		public event Action OnMonth;
-		public event Action OnWeek;
-		public event Action OnNewDay;
+        public event EventHandler<AlertEventArgs> OnYear;
+		public event EventHandler<AlertEventArgs> OnMonth;
+		public event EventHandler<AlertEventArgs> OnWeek;
+		public event EventHandler<AlertEventArgs> OnNewDay;
 
 		public Calendar()
 		{
@@ -28,18 +28,17 @@ namespace AlertCalendar
 
 		public void NextDay()
 		{
-
-
-			if (DayNumber == 31)
+            if (DayNumber == 31)
 			{
 				DayNumber = 1;
-				OnMonth();
-				if (Month == Month.December)
+                AlertEventArgs alertEventArgs = new AlertEventArgs(this);
+				OnMonth?.Invoke(this, alertEventArgs);
+                if (Month == Month.December)
 				{
 					Year++;
 					Month = Month.January;
-					OnYear();
-				}
+					OnYear?.Invoke(this, alertEventArgs);
+                }
 			} else
 			{
                 DayNumber++;
@@ -49,14 +48,20 @@ namespace AlertCalendar
 			if (Day == Day.Sunday)
 			{
 				Day = Day.Monday;
-				OnWeek();
-			} else 
+                AlertEventArgs alertEventArgs = new AlertEventArgs(this);
+				OnWeek?.Invoke(this, alertEventArgs);
+            } else 
 			{
                 
                 Day++;
             }
-
-            OnNewDay();
+			if (OnNewDay != null)
+			{
+				AlertEventArgs alertEventArgs = new AlertEventArgs(this);
+                OnNewDay(this, alertEventArgs);
+				
+            }
+            
         }
 	}
 }
