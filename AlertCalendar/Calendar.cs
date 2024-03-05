@@ -27,11 +27,12 @@ namespace AlertCalendar
         }
 
 		public void NextDay()
-		{
+        {
+            AlertEventArgs alertEventArgs = new AlertEventArgs(Year, Day, Month, DayNumber);
             if (DayNumber == 31)
 			{
 				DayNumber = 1;
-                AlertEventArgs alertEventArgs = new AlertEventArgs(this);
+				Month++;
 				OnMonth?.Invoke(this, alertEventArgs);
                 if (Month == Month.December)
 				{
@@ -43,25 +44,16 @@ namespace AlertCalendar
 			{
                 DayNumber++;
             }
-
-
 			if (Day == Day.Sunday)
 			{
 				Day = Day.Monday;
-                AlertEventArgs alertEventArgs = new AlertEventArgs(this);
 				OnWeek?.Invoke(this, alertEventArgs);
             } else 
 			{
                 
                 Day++;
             }
-			if (OnNewDay != null)
-			{
-				AlertEventArgs alertEventArgs = new AlertEventArgs(this);
-                OnNewDay(this, alertEventArgs);
-				
-            }
-            
+			OnNewDay?.Invoke(this, alertEventArgs);            
         }
 	}
 }

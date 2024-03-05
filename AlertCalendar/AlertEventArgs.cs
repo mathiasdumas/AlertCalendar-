@@ -8,9 +8,6 @@ namespace AlertCalendar
         public Month Month { get; set; }
         public int DayNumber { get; set; }
 
-        public AlertEventArgs(Calendar calendar)
-        {
-        }
 
         public AlertEventArgs(int year, Day day, Month month, int dayNumber)
         {
